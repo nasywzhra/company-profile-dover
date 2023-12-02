@@ -47,6 +47,31 @@ position: absolute;
     100% {transform:  translateY(-5px)}
 }
 
+.section-title{
+    color: black;
+    font-weight: 500;
+    font-size: 43px;
+    margin-top: 14px;
+}
+
+.title-line{
+    text-align: center;
+    border: 4px solid #EFC100;
+    width: 163px;
+    margin-bottom: 29px;
+    border-radius: 5px;
+}
+
+.card-title{
+    font-weight: 600;
+    font-size: 24px;
+    margin-bottom: 21px;
+}
+
+.card-body{
+    padding: 10px;
+}
+
 @media only screen and (max-width: 480px){
         #navbar-logo {
             height: 51px;
