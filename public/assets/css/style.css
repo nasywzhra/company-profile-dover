@@ -244,6 +244,25 @@
     margin-bottom: 29px;
     border-radius: 5px;
 }
+
+footer{
+    height: 100px;
+    border: 1px solid #bbb;
+    margin-top: 20px;
+}
+
+.footer-media-social {
+    height: 30px;
+    width: 30px;
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
 @media only screen and (max-width: 480px) {
     #navbar-logo {
         height: 51px;
