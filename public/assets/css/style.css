@@ -215,7 +215,10 @@
     padding: 77px 88px 0px;
 }
 
-.contact-title, .contact-subtitle, .contact-list, .contact-text{
+.contact-title,
+.contact-subtitle,
+.contact-list,
+.contact-text {
     font-family: 'Inter', sans-serif;
     color: black;
 }
@@ -245,7 +248,7 @@
     border-radius: 5px;
 }
 
-footer{
+footer {
     height: 100px;
     border: 1px solid #bbb;
     margin-top: 20px;
@@ -263,6 +266,7 @@ footer{
     align-items: center;
 
 }
+
 @media only screen and (max-width: 480px) {
     #navbar-logo {
         height: 51px;
