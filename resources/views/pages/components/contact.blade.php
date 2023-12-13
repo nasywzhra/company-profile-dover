@@ -27,7 +27,7 @@
                         </div>
                     </li>
                     <li class="contact-list">
-                        Tank Storage Rental Services
+                        Tank Storage Rental Service
                         <div class="fw-semibold">
                             (<a href="mailto:sales.jetty@dovechem.co.id"
                                 class="text-decoration-underline text-dark">sales.jetty@dovechem.co.id</a>)
@@ -136,7 +136,7 @@
                     <h3 class="contact-title ps-0">Jakarta Office (Sales)</h3>
                     <div class="contact-line"></div>
                 </div>
-                <p class="contact-text">
+                <p class="contact-text justify-content-center">
                     Gedung Blugreen-Boutique Office <br>
                     3rd Floor, Suite BG-03 & BC-03 <br>
                     Jl. Lingkar Luar Barat Kav. 88, <br>

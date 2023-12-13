@@ -6,7 +6,7 @@
         <div class="title-line"></div>
     </div>
     <div class="row justify-content-center">
-        <div class="card px-0" style="width: 310px; margin-bottom: 57px">
+        <div class="card px-0" style="width: 310px; height:432px; margin-bottom: 57px">
             <img src="{{ asset('assets/img/services/services-1.png') }}" class="card-img-top" alt="services1">
             <div class="card-body">
                 <h5 class="card-title text-center">Tank Storage Rental</h5>
