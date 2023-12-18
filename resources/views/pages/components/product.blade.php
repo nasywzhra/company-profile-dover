@@ -25,7 +25,7 @@
                     Sodium Benzoate - Dovative Ben
                 </p>
                 <p class="product-text">
-                    ‘Sodium benzoate , also know as benzoic acid sodium salt is amde by reacting sodium
+                    ‘Sodium benzoate, also know as benzoic acid sodium salt is amde by reacting sodium
                     hydroxide with benzoic acid, is primarily used as additive and preservative in food and
                     beverage application to reduce or inhibit activity of microorganism’
                 </p>
@@ -37,7 +37,7 @@
             <img src="{{ asset('assets/img/product/product-3.png') }}" class="product-image" alt="product3">
             <div class="product-description">
                 <p class="product-title">
-                    Formalydehye
+                    Formaldehyde
                 </p>
                 <p class="product-text">
                     'Formaldehyde solutions are used as raw material in a broad range of industries and

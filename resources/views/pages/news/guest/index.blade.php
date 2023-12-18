@@ -8,7 +8,7 @@
         <div class="col-4 mb-4">
             <div class="card bg-light-subtle">
                 <div class="card-header p-4 border-bottom-0">
-                    <img src="{{ asset('assets/img/news/news-1.png') }}" class="card-img-top" alt="...">
+                    <img src="{{ asset('assets/img/news/news-1.png') }}" class="card-img-top" alt="indolivestock">
                 </div>
                 <div class="card-body px-4 pb-4">
                     <h5 class="card-title mb-0">INDOLIVESTOCK</h5>
