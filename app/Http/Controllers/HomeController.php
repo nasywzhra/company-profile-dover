@@ -25,6 +25,6 @@ class HomeController extends Controller
     public function index()
     {
         $news = News::paginate(10);
-        return view('pages.news.admin.index', compact('news'))->with('no', (request('page') - 1) * 10);
+        return view('pages.news.admin.index', compact('news'))->with('no', (request('page', 1) - 1) * 10);
     }
 }

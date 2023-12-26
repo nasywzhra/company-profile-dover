@@ -31,3 +31,5 @@ Route::get('/guest-news', [NewsController::class, 'indexGuest'])->name('news.gue
 Route::get('/news/create', [NewsController::class, 'create'])->name('news.create');
 
 Route::post('/news/store', [NewsController::class, 'store'])->name('news.store');
+
+Route::get('/news/edit/{id}', [NewsController::class, 'edit'])->name('news.edit');

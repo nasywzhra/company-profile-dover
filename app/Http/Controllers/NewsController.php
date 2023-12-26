@@ -43,4 +43,11 @@ class NewsController extends Controller
 
         return redirect()->route('home')->with('create', "This news has been create successfully");
     }
+
+    public function edit($id)
+    {
+        $news = News::find($id);
+
+        return view('pages.news.admin.edit' , compact('news'));
+    }
 }

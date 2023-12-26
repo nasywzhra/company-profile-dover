@@ -30,14 +30,16 @@
                         <td>{{  ++$no }}</td>
                         <td class="text-start">{{ $n->title }}</td>
                         <td>
-                            <a href="#" class="btn btn-warning btn-sm"><i class="fas fa-edit"></i></a>
+                            <a href="{{ route('news.edit', $n->id) }}" class="btn btn-warning btn-sm"><i class="fas fa-edit"></i></a>
                             <a href="#" class="btn btn-info btn-sm"><i class="fas fa-eye"></i></a>
                             <button type="submit" class="btn btn-danger btn-sm"><i class="fa-solid fa-trash"></i></button>
                         </td>
                     </tr>
                         
                     @empty
-                        
+                        <tr class="text-center">
+                            <td colspan="3">No Data News Available</td>
+                        </tr>
                     @endforelse
                 </tbody>
             </table>
