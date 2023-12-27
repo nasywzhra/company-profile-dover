@@ -80,4 +80,10 @@ class NewsController extends Controller
         }
             return redirect()->route('home')->with('update', "The news has been update successfully");
     }
+
+    public function show($id)
+    {
+        $news = News::find($id);
+        return view('pages.news.admin.show', compact('news'));
+    }
 }

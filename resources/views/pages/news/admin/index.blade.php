@@ -13,7 +13,7 @@
             {{ session('update') }}
         </div>
     @endif
-    
+
     <div class="card">
         <div class="card-header">
             <div class="d-flex align-items-center">
@@ -38,7 +38,7 @@
                         <td class="text-start">{{ $n->title }}</td>
                         <td>
                             <a href="{{ route('news.edit', $n->id) }}" class="btn btn-warning btn-sm"><i class="fas fa-edit"></i></a>
-                            <a href="#" class="btn btn-info btn-sm"><i class="fas fa-eye"></i></a>
+                            <a href="{{ route('news.show', $n->id) }}" class="btn btn-info btn-sm"><i class="fas fa-eye"></i></a>
                             <button type="submit" class="btn btn-danger btn-sm"><i class="fa-solid fa-trash"></i></button>
                         </td>
                     </tr>
