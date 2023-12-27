@@ -7,8 +7,9 @@
             <h4 class="card-title mb-0">Form Edit News</h4>
         </div>
         <div class="card-body">
-            <form action="#" method="post" enctype="multipart/form-data">
+            <form action="{{ route('news.update', $news->id) }}" method="post" enctype="multipart/form-data">
                 @csrf
+                @method('PUT')
                 <div class="mb-3">
                     <label for="title" class="form-label">Title</label>
                     <input type="text" name="title" id="" class="form-control @error('title') is-invalid @enderror" value="{{ old('title', $news->title) }}" placeholder="input Title">
@@ -29,7 +30,7 @@
                 </div>
                 <div class="mb-3">
                     <label for="news" class="form-label">News</label>
-                    <textarea name="news" id="news" class="form-control @error('news') is-invalid @enderror"placeholder="input News">{{ old('news->news') }}</textarea>
+                    <textarea name="news" id="news" class="form-control @error('news') is-invalid @enderror"placeholder="input News">{{ old('news',$news->news) }}</textarea>
                     @error('news')
                     <div class="invalid-feedback">
                         {{ $message }}

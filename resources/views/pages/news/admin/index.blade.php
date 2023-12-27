@@ -7,6 +7,13 @@
         {{ session('create') }}
     </div>
     @endif
+
+    @if(session('update'))
+        <div class="alert alert-warning">
+            {{ session('update') }}
+        </div>
+    @endif
+    
     <div class="card">
         <div class="card-header">
             <div class="d-flex align-items-center">
