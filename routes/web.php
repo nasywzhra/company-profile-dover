@@ -26,7 +26,7 @@ Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name
 
 Route::get('/', [MainController::class, 'index'])->name('page.main');
 
-Route::get('/guest-news', [NewsController::class, 'indexGuest'])->name('news.guest.index');
+Route::get('/guest-news', [MainController::class, 'indexGuest'])->name('news.guest.index');
 
 Route::get('/news/create', [NewsController::class, 'create'])->name('news.create');
 

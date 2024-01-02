@@ -12,10 +12,7 @@ class NewsController extends Controller
         $this->middleware('auth');
     }
 
-    public function indexGuest()
-    {
-        return view('pages.news.guest.index');
-    }
+   
 
     public function create()
     {

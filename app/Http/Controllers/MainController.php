@@ -10,5 +10,10 @@ class MainController extends Controller
     {
      return view('pages.main');   
     }
+
+    public function indexGuest()
+    {
+        return view('pages.news.guest.index');
+    }
     
 }
