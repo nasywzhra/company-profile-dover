@@ -37,3 +37,5 @@ Route::get('/news/edit/{id}', [NewsController::class, 'edit'])->name('news.edit'
 Route::put('/news/update/{id}', [NewsController::class, 'update'])->name('news.update');
 
 Route::get('/news/show/{id}', [NewsController::class, 'show'])->name('news.show');
+
+Route::delete('/news/delete/{id}', [NewsController::class, 'destroy'])->name('news.destroy');

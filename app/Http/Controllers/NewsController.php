@@ -83,4 +83,15 @@ class NewsController extends Controller
         $news = News::find($id);
         return view('pages.news.admin.show', compact('news'));
     }
+
+    public function destroy($id)
+    {
+        $news = News::find($id);
+
+        Storage::delete('/public/news/image/' . $news->image);
+
+        $news->delete();
+
+        return redirect()->route('home')->with('delete', "News has been deleted successfully!");
+    }
 }
