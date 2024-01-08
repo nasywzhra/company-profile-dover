@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\News;
 use Illuminate\Http\Request;
 
 class MainController extends Controller
@@ -13,7 +14,9 @@ class MainController extends Controller
 
     public function indexGuest()
     {
-        return view('pages.news.guest.index');
+        $news   = News::latest()->get();   
+
+        return view('pages.news.guest.index', compact('news'));
     }
     
 }
