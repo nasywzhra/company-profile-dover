@@ -15,7 +15,7 @@
                     and internal/external storage facilities.</p>
             </div>
         </div>
-        <div class="card px-0 mx-5" style="width: 310px; margin:0px 40px 57px">
+        <div class="card px-0 mx-5" style="width: 310px; height:432px; margin:0px 40px 57px">
             <img src="{{ asset('assets/img/services/services-2.png') }}" class="card-img-top" alt="services2">
             <div class="card-body">
                 <h5 class="card-title text-center">Logistic and Trucking</h5>
@@ -24,7 +24,7 @@
                     and warehouse performance.</p>
             </div>
         </div>
-        <div class="card px-0 " style="width: 310px; margin-bottom: 57px">
+        <div class="card px-0 " style="width: 310px; height:432px; margin-bottom: 57px">
             <img src="{{ asset('assets/img/services/services-3.png') }}" class="card-img-top" alt="services3">
             <div class="card-body">
                 <h5 class="card-title text-center">Drum / IBC Filling Solution</h5>

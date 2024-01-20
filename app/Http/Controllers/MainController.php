@@ -18,5 +18,11 @@ class MainController extends Controller
 
         return view('pages.news.guest.index', compact('news'));
     }
+
+    public function readMoreNews($id) {
+        $news = News::findOrFail($id);
+
+        return view('pages.news.guest.read_more_news', compact('news'));
+    }
     
 }

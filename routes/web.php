@@ -28,6 +28,8 @@ Route::get('/', [MainController::class, 'index'])->name('page.main');
 
 Route::get('/guest-news', [MainController::class, 'indexGuest'])->name('news.guest.index');
 
+Route::get('/guest-news/read-more/{id}', [MainController::class, 'readMoreNews'])->name('news.guest.read.more');
+
 Route::get('/news/create', [NewsController::class, 'create'])->name('news.create');
 
 Route::post('/news/store', [NewsController::class, 'store'])->name('news.store');
